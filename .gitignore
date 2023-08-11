@@ -2,5 +2,7 @@
 build/
 __pycache__
 zebrapose/pretrained_backbone
-datasets
+datasets/
 zebrapose/pretrained_backbone/efficientnet/
+data/
+checkpoints/
