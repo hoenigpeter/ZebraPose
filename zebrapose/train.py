@@ -57,6 +57,8 @@ def main(configs):
     predict_entire_mask=configs['predict_entire_mask']                  # if predict the entire object part rather than the visible one
     if 'efficientnet_key' in configs.keys():
         efficientnet_key = configs['efficientnet_key']
+    else:
+        efficientnet_key=None
     #### check points
     load_checkpoint = configs['load_checkpoint']
     tensorboard_path = configs['tensorboard_path']
