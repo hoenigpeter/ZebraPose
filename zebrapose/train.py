@@ -84,6 +84,9 @@ def main(configs):
     # get dataset informations
     dataset_dir,source_dir,model_plys,model_info,model_ids,rgb_files,depth_files,mask_files,mask_visib_files,gts,gt_infos,cam_param_global, cam_params = bop_io.get_dataset(bop_path,dataset_name, train=True, data_folder=training_data_folder, data_per_obj=True, incl_param=True, train_obj_visible_theshold=train_obj_visible_theshold)
     obj_name_obj_id, symmetry_obj = get_obj_info(dataset_name)
+    print()
+    print(obj_name_obj_id)
+    print()
     obj_id = int(obj_name_obj_id[obj_name] - 1)    # now the obj_id started from 0
     if obj_name in symmetry_obj:
         Calculate_Pose_Error = Calculate_ADI_Error_BOP
