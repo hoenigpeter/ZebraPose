@@ -11,6 +11,8 @@ num_workers = 8
 train_obj_visible_theshold = 0.2
 ####
 
+detector = FCOS
+use_icp = False
 
 #### network settings
 BoundingBox_CropSize_image = 256
