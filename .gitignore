@@ -8,3 +8,5 @@ zebrapose/pretrained_backbone/efficientnet/
 data/
 checkpoints/
 *.zip
+results/
+checkpoints_random/
