@@ -60,7 +60,9 @@ def get_bop_challange_test_data(bop_dir, dataset, target_obj_id, data_folder='te
             scene_gt_info_fn = os.path.join(bop_dataset_dir,data_folder, "{:06d}".format(scene_id),"scene_gt_info.json")
             if os.path.exists(scene_gt_fn) and os.path.exists(scene_gt_info_fn):           
                 scene_gts = inout.load_scene_gt(scene_gt_fn)
+                print(scene_gt_fn)
                 scene_gt_infos = inout.load_scene_gt(scene_gt_info_fn)
+                print(scene_gt_info_fn)
                 has_gt = True
             current_scene_id = scene_id
 

@@ -9,4 +9,5 @@ data/
 checkpoints/
 *.zip
 results/
-checkpoints_random/
+checkpoints*
+

@@ -28,6 +28,8 @@ output_kernel_size = 1
 
 resnet_layer = 34
 concat_encoder_decoder = True
+
+efficientnet_key = b4
 ####
 
 
@@ -42,7 +44,7 @@ tensorboard_path=/zebra/data/6dof_pose_experiments/experiments/tensorboard_logs/
 optimizer_type = Adam
 learning_rate = 0.0002
 batch_size = 16
-total_iteration = 380000
+total_iteration = 600000
 
 binary_loss_weight = 3
 #### 
@@ -60,3 +62,5 @@ use_motion_blur= True
 #binary coding settings
 divide_number_each_itration = 2
 number_of_itration = 16
+
+detector = FCOS
