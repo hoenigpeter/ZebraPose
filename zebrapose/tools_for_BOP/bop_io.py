@@ -37,7 +37,7 @@ def get_bop_challange_test_data(bop_dir, dataset, target_obj_id, data_folder='te
             model_ids.append(int(model_id)) #add model id only if the model.ply file exists
     model_ids = np.sort(np.array(model_ids))
 
-    if data_folder == 'test':
+    if data_folder == 'test' or data_folder == 'test_primesense':
         target_list_path = os.path.join(bop_dataset_dir, "test_targets_bop19.json")
     elif data_folder == 'val':
         target_list_path = os.path.join(bop_dataset_dir, "val_targets_bop19.json")

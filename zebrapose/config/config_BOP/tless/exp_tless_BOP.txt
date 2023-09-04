@@ -6,7 +6,7 @@ training_data_folder = train_pbr
 training_data_folder_2 = none
 val_folder = test_primesense
 test_folder = test_primesense
-second_dataset_ratio = 0
+second_dataset_ratio = 0.75
 num_workers = 8
 train_obj_visible_theshold = 0.2
 ####
