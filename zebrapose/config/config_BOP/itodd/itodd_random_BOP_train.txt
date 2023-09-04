@@ -49,7 +49,7 @@ binary_loss_weight = 3
 
 
 #### augmentations
-Detection_reaults = /zebra/zebrapose/detection_results/itodd/itodd_instances_predictions_bop.json
+Detection_reaults = none
 
 padding_ratio = 1.5
 resize_method = crop_square_resize  
